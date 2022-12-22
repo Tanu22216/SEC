@@ -1,0 +1,9 @@
+D:\Учеба\ИиВТ\2 курс\ПИ\Laba5Programm\Laba5Programm\bin\Debug\Laba5Programm.exe.config
+D:\Учеба\ИиВТ\2 курс\ПИ\Laba5Programm\Laba5Programm\bin\Debug\Laba5Programm.exe
+D:\Учеба\ИиВТ\2 курс\ПИ\Laba5Programm\Laba5Programm\bin\Debug\Laba5Programm.pdb
+D:\Учеба\ИиВТ\2 курс\ПИ\Laba5Programm\Laba5Programm\obj\Debug\Laba5Programm.csprojResolveAssemblyReference.cache
+D:\Учеба\ИиВТ\2 курс\ПИ\Laba5Programm\Laba5Programm\obj\Debug\Laba5Programm.Form1.resources
+D:\Учеба\ИиВТ\2 курс\ПИ\Laba5Programm\Laba5Programm\obj\Debug\Laba5Programm.Properties.Resources.resources
+D:\Учеба\ИиВТ\2 курс\ПИ\Laba5Programm\Laba5Programm\obj\Debug\Laba5Programm.csproj.GenerateResource.Cache
+D:\Учеба\ИиВТ\2 курс\ПИ\Laba5Programm\Laba5Programm\obj\Debug\Laba5Programm.exe
+D:\Учеба\ИиВТ\2 курс\ПИ\Laba5Programm\Laba5Programm\obj\Debug\Laba5Programm.pdb
