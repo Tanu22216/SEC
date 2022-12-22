@@ -41,9 +41,17 @@
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ColumnNamber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnData1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnData2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -113,6 +121,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.dataGridView1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -163,6 +172,50 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "То обратитесь на наш сайт: DocProg.ru";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColumnNamber,
+            this.ColumnName,
+            this.ColumnStatus,
+            this.ColumnData1,
+            this.ColumnData2});
+            this.dataGridView1.Location = new System.Drawing.Point(0, 172);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(985, 375);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // ColumnNamber
+            // 
+            this.ColumnNamber.HeaderText = "Номер";
+            this.ColumnNamber.Name = "ColumnNamber";
+            this.ColumnNamber.Width = 185;
+            // 
+            // ColumnName
+            // 
+            this.ColumnName.HeaderText = "Название";
+            this.ColumnName.Name = "ColumnName";
+            this.ColumnName.Width = 190;
+            // 
+            // ColumnStatus
+            // 
+            this.ColumnStatus.HeaderText = "Статус";
+            this.ColumnStatus.Name = "ColumnStatus";
+            this.ColumnStatus.Width = 190;
+            // 
+            // ColumnData1
+            // 
+            this.ColumnData1.HeaderText = "Дата начала";
+            this.ColumnData1.Name = "ColumnData1";
+            this.ColumnData1.Width = 190;
+            // 
+            // ColumnData2
+            // 
+            this.ColumnData2.HeaderText = "Дата окончания";
+            this.ColumnData2.Name = "ColumnData2";
+            this.ColumnData2.Width = 185;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,7 +229,9 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,6 +250,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnNamber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnStatus;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnData1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnData2;
     }
 }
 
